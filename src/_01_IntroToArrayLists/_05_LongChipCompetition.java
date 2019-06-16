@@ -16,7 +16,19 @@ public class _05_LongChipCompetition {
 
 	public static void main(String[] args) {
 		_05_LongChipCompetition lcc = new _05_LongChipCompetition();
-		
+		lcc.initializeBeatles();
+		ArrayList<Beatle> beatles = lcc.getTheBand();
+		Beatle winner=beatles.get(0);
+		int winningLength=0;
+		for(int i =0;i<lcc.getTheBand().size()-1;i++) {
+			for(Chip chip :beatles.get(i).getChips()) {
+				if(chip.getLength()>winningLength) {
+					winningLength=(int) chip.getLength();
+					winner=beatles.get(i);
+				}
+			}
+		}
+		System.out.println(winner.getName()+" won with his chip of a length of "+winningLength);
 	}
 	
 	private void initializeBeatles() {
@@ -47,7 +59,7 @@ class Beatle {
 	private void initializePlateOfChips() {
 		int numberOfChips = new Random().nextInt(100);
 		for (int i = 0; i < numberOfChips; i++) {
-			chips.add(new Chip(new Random().nextDouble() * 10));
+			chips.add(new Chip(new Random().nextDouble() * 100));
 		}
 	}
 
