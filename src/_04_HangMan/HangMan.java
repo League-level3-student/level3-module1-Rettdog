@@ -104,7 +104,7 @@ public class HangMan implements KeyListener {
 	}
 
 	static void getReady() {
-		int wordCount = 266;
+		int wordCount =  util.getTotalWordsInFile("dictionary.txt");
 		//int wordCount = Integer.parseInt(JOptionPane.showInputDialog("Give me a number less than " + util.getTotalWordsInFile("dictionary.txt")));
 		String randomWord = util.readRandomLineFromFile("dictionary.txt");
 //System.out.println(wordCount);

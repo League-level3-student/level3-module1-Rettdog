@@ -15,6 +15,7 @@ agree
 agreeable
 amazing
 angelic
+antidisestablishmentarianism
 appealing
 approve
 aptitude
@@ -22,6 +23,7 @@ attractive
 awesome
 beaming
 beautiful
+bear
 believe
 beneficial
 bliss
@@ -93,11 +95,13 @@ fresh
 friendly
 fun
 funny
+gather
 generous
 genius
 genuine
 giving
 glamorous
+globglogabgalab
 glowing
 good
 gorgeous
@@ -170,6 +174,7 @@ optimistic
 paradise
 perfect
 phenomenal
+pizza
 pleasurable
 plentiful
 pleasant
@@ -256,11 +261,15 @@ well
 whole
 wholesome
 willing
+windy
 wonderful
 wondrous
 worthy
 wow
 yes
 yummy
+yodeling
+zany
 zeal
 zealous
+zebra
