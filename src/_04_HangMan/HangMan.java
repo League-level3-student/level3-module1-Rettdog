@@ -196,7 +196,7 @@ public class HangMan implements KeyListener {
 	@Override
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
-		 
+		System.out.println(e.getKeyChar());
 		if (!game.checkLetter(e.getKeyChar())) {
 			lives -= 1;
 			frame.setTitle("Hangman: " + lives + " lives left");
@@ -213,7 +213,7 @@ public class HangMan implements KeyListener {
 
 		}
 		frame.pack();
-		System.out.println(e.getKeyChar());
+		
 	}
 
 	@Override
